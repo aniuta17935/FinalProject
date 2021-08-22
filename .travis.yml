@@ -1,17 +1,14 @@
 languge: node_js
 node_js:
-- '14.17.1'
-
-before_install: 
+- 14.17.1
+before_install:
 - npm install -g @angular/cli
 install: npm install
-
 branches:
   only:
   - master
-
 deploy:
   provider: heroku
   app: finalProject
   api_key:
-    secure: "63e1bd1a-739c-42c9-9d4b-dbc46f358efb"
+    secure: fiADOX/fZbd8O3THtIGcMqjLDk5DsD+evH5RnHdEGMKKxDDV6PWh+IBdNAKVsVrJN+ylaVsihP+3W7VBMzIyT0ZvWU/46cyfgrvTC0J91KWbu6XX8+KTLZ5owru+eENxvnlYsNpVc4prmj6bkvm6cf9nmXuHCyf1RepGYFP6EwioQkYHWz/dJ1DQSb/Q9NMCEF3eO8o1HLaSiHQ81VwyY/jHnrhKvYrG0LEVrm6KMlLImjeEftLokdZSsboIrSOSRWzNZZBYN9WrfD7KbR2Nn7Wvf1WU96bgWTlSh9GUCvq+sRSoLv8PnGATXMYmJmF8DeviAz7iTwD5vQWfN+gbvQd9yRO3rvLsKcFgonU0trwx6DqDrH/LsgG65dWRJ1dsH212WLSPAgL4B0ssJR5ljLz6NjtTcpkSpOx3RKHFzrD0gIMjGKxunVQNByYFdRM5OJKhx4Ls4/654R6iuz8oFRsKAJYje0fNAXk6NgLTpjG+uK2v7dHBdWwRVeLwnxoRr4gAo4vlURevMIFNsoAmgqjnYBCWAgxAF+Hd5mXobUNyPnGAWaEwGx+4oxpGFznnXKgrkCwkRgON2+9Q64V6Lk/SNzjcqTxDa3kHBZdMoPWUnIe8/w+p4yqowuuYib6vCjMbMZ0l9PovIhhy9P9rBCyqMExuY+RMJ4KIF/lh9Qk=
